@@ -19,6 +19,7 @@ typedef enum {
     DBGCLI_UNKNOWN_PARAMETER,
     DBGCLI_TOO_FEW_ARGS,
     DBGCLI_TOO_MANY_ARGS,
+    DBGCLI_ARG_OOB,
 } dbgCliError_t;
 
 typedef struct {
